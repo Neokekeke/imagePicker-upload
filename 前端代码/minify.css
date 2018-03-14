@@ -1,0 +1,15 @@
+#file{
+    font-size: 16px;
+}
+#box{
+    margin: 10px 0 0 0;
+}
+p{
+    margin: 1px 0 1px 0;
+}
+#showImg{
+    margin: 5px 0 0 0;
+}
+#download{
+    text-decoration: none;
+}
