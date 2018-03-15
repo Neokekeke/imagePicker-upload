@@ -11,6 +11,16 @@ module.exports = {
         path : path.resolve(__dirname , 'dist'),
         filename : 'bundle.js'
     },
+    moudle : [
+        {
+            test : /\.css$/ ,
+            use : 'css-loader'
+        },
+        {
+            test : /\(.js|.jsx)$/,
+            use : 'babel-loader'
+        }
+    ],
     plugins : [
         new htmlWebpackPlugin({
             template : 'minify.html', //以根目录下的index.html为模板

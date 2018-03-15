@@ -12,5 +12,10 @@
   "dependencies": {
     "html-webpack-plugin": "^3.0.6",
     "webpack": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "bable-loader": "0.0.1-security",
+    "css-loader": "^0.28.10"
   }
 }
